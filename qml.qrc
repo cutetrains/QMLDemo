@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>itemCreation.js</file>
+        <file>Sprite.qml</file>
+    </qresource>
+</RCC>
