@@ -27,9 +27,9 @@ int main(int argc, char *argv[])
 
     QQuickView view;
     view.setSource(QUrl(QStringLiteral("qrc:/main.qml")));
-    view.show();
+    view.show();//QML parts are initiated here
     QObject *object = view.rootObject();
-    object->dumpObjectTree();
+    object->dumpObjectTree();//All QML items are listed
     QVariant returnedValue;
 
 
